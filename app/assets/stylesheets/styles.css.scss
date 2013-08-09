@@ -1,0 +1,48 @@
+$baseFontFamily: oxygen; 
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import 'bootstrap';
+@import 'bootstrap-responsive';
+
+.well {
+  padding-top: 60px;
+  background-color: #ffffff;
+  border-style: none !important;
+  border-color: #ffffff;
+  border-top-style: none !important;
+
+} 
+
+.formcontainer {
+   display: inline-block !important;
+   width:980px !important; 
+   margin:0 auto !important;
+   text-align: center;
+   position: relative;  
+}        
+
+.center {
+position: absolute;       
+  top: 10px;               
+  width: 50%;   
+  left: 0 !important;                  
+  right: 0 !important;
+  margin-left: auto !important;       
+  margin-right: auto !important;   
+}    
+
+.links {
+  text-decoration: none !important;
+  color: #FFFFFF;
+  text-decoration: underline !important;
+  &:hover {
+  color: #ddc92a;
+  }
+}
+
+.footer{
+  margin-top: 50px;
+  color: $grayLight;
+  a{
+  color: $gray;
+  }
+}
