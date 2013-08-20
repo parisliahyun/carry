@@ -3,33 +3,44 @@ $baseFontFamily: oxygen;
 @import 'bootstrap';
 @import 'bootstrap-responsive';
 
+.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  background-position: center;
+}
+
+.container {
+  margin-bottom: 60px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.form {
+  max-width: 65% !important;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.h1 { 
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .well {
   padding-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #ffffff;
   border-style: none !important;
   border-color: #ffffff;
   border-top-style: none !important;
 
 } 
-
-.formcontainer {
-   display: inline-block !important;
-   width:980px !important; 
-   margin:0 auto !important;
-   text-align: center;
-   position: relative;  
-}        
-
-.center {
-position: absolute;       
-  top: 10px;               
-  width: 50%;   
-  left: 0 !important;                  
-  right: 0 !important;
-  margin-left: auto !important;       
-  margin-right: auto !important;   
-}    
-
+      
 .links {
   text-decoration: none !important;
   color: #FFFFFF;
